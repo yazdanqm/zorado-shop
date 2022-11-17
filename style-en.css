@@ -1,0 +1,280 @@
+*{
+     text-transform: uppercase !important;
+}
+
+.title-en{
+    font-family:'supermaEn';
+    font-weight:600 !important;
+    letter-spacing: 5px;
+}
+
+.cart-fonts{
+    letter-spacing: 1px !important;
+}
+
+.suprima{
+    font-family:'supermaEn';
+}
+
+.suprima-mid{
+    font-family:'supermaEn';
+    font-weight:700 !important;
+}
+
+.footer-en{
+    font-family:'supermaEn';
+    font-weight:700 !important;
+    letter-spacing: 2px;
+}
+
+.barlow{
+    font-family:'barlowEn';
+    letter-spacing: 5px;
+    font-weight:600 !important;
+}
+
+.barlow-thin{
+    font-family:'barlowEn';
+    letter-spacing: 2px;
+    font-weight:100 !important;
+}
+
+.sup-thin{
+    font-family:'supermaEn';
+    letter-spacing: 2px;
+    font-weight:100 !important;
+}
+
+.dir-en{
+    direction:ltr !important;
+}
+
+.right-en-0{
+    right:0 !important;
+}
+.text-en{
+    text-align:left !important;
+}
+
+.read-en{
+    font-family:'supermaEn';
+}
+
+.fea-bg-en{
+    background-image: url(https://hypestyleclothing.com/test/wp-content/themes/hyper/assets/img/en-feature.svg);
+    animation: 15s linear infinite slide alternate !important;
+}
+
+.en-title{
+    
+}
+
+.pzero{
+    padding:0 !important;
+}
+
+.en-desc{
+    font-family:'supermaEn';
+    font-weight:700 !important;
+}
+
+.en-mb{
+    margin-bottom: -20px;
+}
+
+.en180{
+   transform: rotate(180deg);
+}
+
+.en-hover-65-bg:hover .en-hover-65{
+    padding-left:65px !important;
+}
+
+.insta-desc{
+    font-weight: 100;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.footer-thin{
+    font-family:'supermaEn';
+    line-height: 22px;
+    font-weight:100 !important;
+}
+
+.border-left-en{
+    border-left:2px solid black;
+    padding-left:7px;
+    border-right:none !important;
+}
+
+.text-left-en{
+    text-align:left !important;
+}
+
+.footer .text-left-en{
+    text-align:center;
+}
+
+.dir-with-pad{
+    direction: ltr;
+    padding-left: 10px;
+}
+
+.arrow-en{
+    right: 0 !important;
+    left: unset !important;
+    transform: rotate(180deg);
+}
+
+/*style for en woocommerce*/
+.woocommerce *{
+    direction : ltr !important;
+}
+
+
+.woocommerce table{
+    direction:ltr !important;
+}
+
+.woocommerce th{
+    font-family:'barlowEn';
+    letter-spacing: 5px;
+    font-weight:600 !important;
+}
+
+.woocommerce .product-name{
+    font-family:'barlowEn';
+    letter-spacing: 2px;
+}
+
+.woocommerce h2 , .woocommerce h1 , .woocommerce h3{
+    font-family:'barlowEn';
+    letter-spacing: 5px;
+    font-weight:600 !important;
+}
+
+.woocommerce-order-overview li strong{
+    font-family:'barlowEn';
+    letter-spacing: 0 !important;
+    font-weight:600 !important;
+}
+
+.woocommerce .product-price span bdi , .woocommerce .product-subtotal span bdi, input[type=number] , 
+.woocommerce .cart-subtotal span bdi , .woocommerce .order-total span bdi , 
+.woocommerce .product-total span bdi , .product-quantity ,
+.woocommerce-Price-amount
+{
+    font-family:'barlowEn';
+    letter-spacing: 2px;
+    font-weight:100 !important; 
+}
+
+.woocommerce-customer-details address , .woocommerce-customer-details--phone , .woocommerce-customer-details--email{
+    font-family:'supermaEn' , 'ariaFa';
+    font-weight:400 !important;
+}
+
+
+.woocommerce button , .woocommerce .button{
+    font-family:'supermaEn';
+    font-weight:700 !important;
+}
+
+.woocommerce #coupon_code{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 190px !important;
+    display: flex;
+    align-items: center;
+}
+
+.woocommerce .coupon{
+    position:relative;
+}
+
+.woocommerce .woocommerce-checkout label , .woocommerce .woocommerce-checkout input , .woocommerce-notice , .woocommerce-order-overview li , .woocommerce label , .woocommerce input{
+    font-family:'supermaEn' , 'ariaFa';
+    font-weight:100 !important;
+}
+
+.woocommerce .coupon button{
+    margin-top: 0;
+    margin-left: 200px;
+}
+
+.woocommerce-form-coupon p{
+    position:relative;
+}
+
+#dashboard ul li {
+
+    margin-left: 0;
+    margin-right: 20px;
+
+}
+
+#dashboard ul li a{
+    font-family: 'barlowEn';
+    font-weight: 700;
+}
+
+.woocommerce-notices-wrapper h1 a , .woocommerce-notices-wrapper h1 a{
+    font-family: 'barlowEn';
+    font-weight: 700;
+} 
+
+#single-content .slider__flex{
+    direction:ltr !important;
+}
+
+.woocommerce-MyAccount-content * {
+    font-family: 'barlowEn' , 'ariaFa';
+}
+
+.woocommerce-MyAccount-content .p-dash{
+    font-family:'supermaEn' , 'ariaFa';
+    font-weight:100 !important;
+}
+
+.pagination{
+    direction:ltr;
+}
+
+.pagination a , .pagination span{
+    font-family :barlow;
+}
+
+.ri-arrow-right-line{
+    transform: rotate(0deg) !important;
+}
+
+@media only screen and (min-width: 1200px) {
+.footerr-en{
+    place-items:self-start !important;
+}
+.footer .text-left-en{
+    text-align:left;
+}
+}
+.woocommerce ul#shipping_method li label{
+    display: flex;
+align-items: center;
+gap: 10px;
+}
+#shipping_method_0_awsa-sefareshi{
+    display:none !important;
+}
+label[for=shipping_method_0_awsa-sefareshi]{
+     display:none !important;
+}
+#shipping_method_0_awsa-pishtaz{
+    display:flex !important;
+    font-family: 'supermaEn' !important;
+}
+label[for=shipping_method_0_awsa-pishtaz]{
+     display:flex !important;
+     font-family: 'supermaEn' !important;
+}
